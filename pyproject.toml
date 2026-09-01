@@ -1,0 +1,15 @@
+[project]
+name = "sales-dashboard"
+version = "0.1.0"
+description = "Streamlit dashboard visualizing dummy sales data"
+authors = [
+    { name = "Miles", email = "mwill443@charlotte.edu" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0.5",
+    "streamlit>=1.62.0",
+]
+
+[tool.uv]
+package = false
